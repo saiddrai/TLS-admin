@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+.searchbar{
+    background-color: rgb(255, 255, 255);
+    justify-self: flex-start;
+    align-self: flex-start;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    padding: 1vh 4vw;
+}
+
+.input{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 0.2rem 2rem;
+    border: none;
+    width: 481px;
+    height: 49px;
+    background-color: rgba(230, 230, 230, 0.67);
+    outline: none;
+    & :focus{
+       outline: none; 
+    }
+}

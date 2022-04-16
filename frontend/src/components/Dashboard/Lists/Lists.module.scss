@@ -1,0 +1,16 @@
+.lists{
+    width: 95%;
+    padding: 20px 10px;
+}
+
+.element{
+    background-color: #EEEEEE;
+    display: flex;
+    border-radius: 20px;
+    padding: 2px 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 0;
+}
+

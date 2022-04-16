@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+.searchbar {
+  background-color: white;
+  justify-self: flex-start;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  height: 12vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1vh 4vw;
+}
+
+.input {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  border-radius: 20px;
+  padding: 0.2rem 2rem;
+  border: none;
+  width: 481px;
+  height: 49px;
+  background-color: rgba(230, 230, 230, 0.67);
+  outline: none;
+}
+
+.input :focus {
+  outline: none;
+}
+/*# sourceMappingURL=SearchBar.module.css.map */

@@ -1,0 +1,20 @@
+.dashboard {
+  margin: 5vh 3vw;
+  width: 86.5vw;
+  height: 78vh;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-self: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  background-color: white;
+}
+/*# sourceMappingURL=Dashboard.module.css.map */

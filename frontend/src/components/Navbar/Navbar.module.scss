@@ -2,6 +2,21 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 10vw;
+    width: 7.5vw;
     height: 100vh;
+    background-color: #43AA88;
+}
+.button{
+    background: none;
+    border: none;
+    padding: 20px 10px;
+    color: white;
+    outline: none;
+    &:focus{
+        background-color: #378d70;
+    }
+}
+
+.img{
+    width: 90%;
 }
