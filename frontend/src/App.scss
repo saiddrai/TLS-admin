@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
 .App {
     display: flex;
     flex-direction: row;
@@ -5,5 +12,5 @@
 .maindiv{
     width: 92.5vw;
     height: 100vh;
-    background-color: grey;
+    background-color: #E9E9E9;
 }

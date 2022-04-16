@@ -26,6 +26,10 @@
   background-color: #378d70;
 }
 
+.button:hover {
+  cursor: pointer;
+}
+
 .img {
   width: 90%;
 }

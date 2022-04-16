@@ -1,12 +1,39 @@
 .dashboard{
     margin: 5vh 3vw;
     width: 86.5vw;
-    height: 78vh;
+    min-height: fit-content;
+    max-height: 78vh;
     border-radius: 20px;
     display: flex;
-    align-items: stretch;
+    flex-direction: column;
     justify-content: center;
     justify-self: center;
     align-self: center;
     background-color: rgb(255, 255, 255);
 }
+.buttons{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    justify-self: flex-start;
+}
+
+
+    .button{
+        background: none;
+        border: none;
+        border-bottom: solid #378d7000  2px ; 
+        padding: 10px 6px;
+        margin: 10px ;
+        color: #00000080;
+        
+        outline: none;
+        
+        &:focus{
+            border-bottom: solid #24788A  2px ; 
+            color: #24788A;
+        }
+        &:hover{
+            cursor: pointer;
+        }
+    }

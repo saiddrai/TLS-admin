@@ -1,14 +1,18 @@
 .dashboard {
   margin: 5vh 3vw;
   width: 86.5vw;
-  height: 78vh;
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+  max-height: 78vh;
   border-radius: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -16,5 +20,37 @@
   -ms-flex-item-align: center;
       align-self: center;
   background-color: white;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  justify-self: flex-start;
+}
+
+.button {
+  background: none;
+  border: none;
+  border-bottom: solid #378d7000  2px;
+  padding: 10px 6px;
+  margin: 10px;
+  color: #00000080;
+  outline: none;
+}
+
+.button:focus {
+  border-bottom: solid #24788A  2px;
+  color: #24788A;
+}
+
+.button:hover {
+  cursor: pointer;
 }
 /*# sourceMappingURL=Dashboard.module.css.map */
