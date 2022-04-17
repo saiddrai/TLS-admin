@@ -1,6 +1,7 @@
 import Lists from "./Lists/Lists";
 import DashboardCSS from "./Dashboard.module.css"
 import NavbarCSS from "../Navbar/Navbar.module.css"
+import AccValidation1 from "./AccValidation/AccValidation1";
 
 const Dashboard = () => {
     return ( 
@@ -10,7 +11,9 @@ const Dashboard = () => {
                 <button className={DashboardCSS.button} >Doctors</button>
                 <button className={DashboardCSS.button} >Pharmacists</button>
             </div>
-            <Lists />
+            { /* <Lists /> */ }
+            <AccValidation1 />
+
         </div>
      );
 }
