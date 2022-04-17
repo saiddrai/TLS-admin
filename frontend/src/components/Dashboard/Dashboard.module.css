@@ -20,6 +20,7 @@
   -ms-flex-item-align: center;
       align-self: center;
   background-color: white;
+  padding: 5vh 5vw;
 }
 
 .buttons {
@@ -30,9 +31,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-item-align: start;
-      align-self: flex-start;
-  justify-self: flex-start;
 }
 
 .button {
