@@ -1,21 +1,18 @@
 .dashboard{
     margin: 5vh 3vw;
-    width: 86.5vw;
-    min-height: fit-content;
-    max-height: 78vh;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     justify-self: center;
     align-self: center;
     background-color: rgb(255, 255, 255);
-    padding: 5vh 5vw;
+    padding: 3vh 4vw;
+    height: 74vh;
+    
 }
 .buttons{
     display: flex;
     flex-direction: row;
-
 }
 
 
@@ -23,12 +20,11 @@
         background: none;
         border: none;
         border-bottom: solid #378d7000  2px ; 
+        border-radius: 3px;
         padding: 10px 6px;
         margin: 10px ;
         color: #00000080;
-        
-        outline: none;
-        
+        outline: none;  
         &:focus{
             border-bottom: solid #24788A  2px ; 
             color: #24788A;
@@ -37,3 +33,14 @@
             cursor: pointer;
         }
     }
+
+.pages {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+}
+
+h3{
+    color: #676767;
+    font-size: 1.5em;
+}

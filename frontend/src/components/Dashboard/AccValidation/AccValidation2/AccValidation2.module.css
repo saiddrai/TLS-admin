@@ -1,0 +1,26 @@
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.button, .button2 {
+  font-size: 1.2em;
+  background: linear-gradient(265.98deg, rgba(76, 157, 143, 0.67) 0%, rgba(104, 218, 180, 0.603) 106.29%);
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  text-align: center;
+  cursor: pointer;
+  margin: 3vw;
+}
+
+.button2 {
+  background: #E6E6E6AB;
+}
+/*# sourceMappingURL=AccValidation2.module.css.map */
