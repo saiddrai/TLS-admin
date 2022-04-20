@@ -25,16 +25,7 @@ const Dashboard = () => {
             <h3>Account Validation {id}</h3>
             {/* <AccValidation1 /> */}
             <AccValidation2 />
-            <div className={DashboardCSS.pages}>
-                <button className={DashboardCSS.button}  style={{
-                    width: "16%",
-                    borderBottom:"solid  4px"
-                }} ></button>
-                <button className={DashboardCSS.button} style={{
-                    width: "16%",
-                    borderBottom:"solid   4px"
-                }}></button>
-            </div>
+
 
         </div>
      );

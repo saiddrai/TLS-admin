@@ -1,8 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
-* {
-  font-family: 'Montserrat', sans-serif;
-}
-
 .App {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -13,9 +9,60 @@
           flex-direction: row;
 }
 
+.app-right {
+  width: 80vw;
+}
+
 .maindiv {
   width: 92.5vw;
   height: 100vh;
   background-color: #E9E9E9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.button {
+  background: none;
+  border: none;
+  border-bottom: solid #378d7000  2px;
+  border-radius: 3px;
+  padding: 10px 6px;
+  margin: 10px;
+  color: #00000080;
+  outline: none;
+}
+
+.button:focus {
+  border-bottom: solid #24788A  2px;
+  color: #24788A;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.pages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: auto;
 }
 /*# sourceMappingURL=App.css.map */
