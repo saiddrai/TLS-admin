@@ -11,7 +11,6 @@ const Dashboard = () => {
     const handleClick= () => {
         setButtonColor("blue");
     }
-    let id = "#1";
 
 
     return ( 
@@ -22,9 +21,8 @@ const Dashboard = () => {
                 <button className={DashboardCSS.button} >Pharmacists</button>
             </div>
             { /* <Lists /> */ }
-            <h3>Account Validation {id}</h3>
             {/* <AccValidation1 /> */}
-            <AccValidation2 />
+            <AccValidation1/>
 
 
         </div>

@@ -4,8 +4,11 @@ import AccValidationCSS from './AccValidation.module.css';
 
 
 const AccValidation1 = () => {
+    let id = "#1";
+
     let dataList = ["Noah Miller", "18/02/2022","Neurological surgeon","Noah_Miller@exemple.com","07****","*******"];
     return ( <div className={AccValidationCSS.accValidation}>
+                    <h3>Account Validation {id}</h3>
 
         <div className={AccValidationCSS.inputs} >
             <div className={AccValidationCSS.inputList} >

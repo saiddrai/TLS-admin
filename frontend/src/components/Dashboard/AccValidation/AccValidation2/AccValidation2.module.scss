@@ -1,3 +1,13 @@
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    justify-self: left;
+    margin-left: 5vw;
+}
+
 .buttons{
     display: flex;
     flex-direction: row;
@@ -19,4 +29,16 @@ margin: 3vw;
 .button2 {
     @extend .button;
     background: #E6E6E6AB;
+}
+
+.file{
+    background-color: #E6E6E6AB;
+    height: 3.3em;
+    width: 30vw;
+    margin: 20px 0;
+    border-radius:20px;
+}
+
+h2{
+    margin-left: 5px;
 }

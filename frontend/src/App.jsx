@@ -1,41 +1,42 @@
 import './App.css';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes ,Link} from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';   
 import SearchBar from './components/Searchbar/SearchBar';
-import Dashboard from './components/Dashboard/Dashboard';
+import AccValidation1 from './components/Dashboard/AccValidation/AccValidation1';
+import AccValidation2 from './components/Dashboard/AccValidation/AccValidation2/AccValidation2';
+import { useState } from 'react/cjs/react.production.min';
 
 function App() {
 
-
+  
   
   return (
   <div className= "App" >
       <Navbar/>
-    <div className="maindiv">
-    <SearchBar/>
+    <div style = { {display:"flex",flexDirection:"column"} }>
+      <SearchBar/>
+      <div className="maindiv">
+        <BrowserRouter>
+          <h4> Account validation request #3</h4>
 
-    <BrowserRouter>
-    <Routes> 
-      <Route path = "/" element={ < div  >
-      <Dashboard/> 
-      </div>} />
-    </Routes>
-    </BrowserRouter>
+          <Routes> 
+          <Route path = "/" element={ < div  >
+            <AccValidation1/> 
+            </div>} />
 
-    
-    <div className="pagesSwitch">
-                <button className="button" style={{
-                    width: "16%",
-                    borderBottom:"solid  4px"
-                }} ></button>
-                <button className="button" style={{
-                  width: "16%",
-                  borderBottom:"solid   4px"
-                }}></button>
-            </div> 
+          <Route path='/left' element={  <AccValidation1/> } />
+          <Route path='/right' element={  <AccValidation2/> } />
+          </Routes>
+          <div className="pagesSwitch">
+      
+                <Link to={"/left"}  className="link" > <button className='button' ></button></Link>
+                <Link to={"/right"}   > <button className='button' ></button></Link>
+          </div> 
+        </BrowserRouter>
+
+      </div>
     </div>
   </div>
   );
 }
-
 export default App;

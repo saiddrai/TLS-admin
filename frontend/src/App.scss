@@ -5,43 +5,47 @@
 
 
  .App {
+     height:98vh;
     display: flex;
     flex-direction: row;
-}
-
-.app-right{
-    width: 80vw;
+    background-color: #acacac;
 }
 
 .maindiv{
-    width: 92.5vw;
-    height: 100vh;
-    background-color: #E9E9E9;
+    width: 80vw;
+    height: 66vh;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
+    border-radius: 20px;
+    margin: 5vh 3vw;
+    padding: 5vh 3vw;    
 }
 
-.buttons{
+.pagesSwitch{
+    position: relative;
     display: flex;
     flex-direction: row;
+    width: 60vw;
+    justify-content: center;
+    align-self: center;
+    margin-top: auto;
 }
 
-
-    .button{
-        background: none;
+    .button {
+        color: #acacac;
+        width: 200px;
         border: none;
-        border-bottom: solid #378d7000  2px ; 
-        border-radius: 3px;
-        padding: 10px 6px;
-        margin: 10px ;
-        color: #00000080;
-        outline: none;  
-        &:focus{
-            border-bottom: solid #24788A  2px ; 
-            color: #24788A;
-        }
-        &:hover{
-            cursor: pointer;
+        border-bottom: solid 4px #6b6b6b;
+        border-radius: 4px;
+        height: 3px;
+        margin: 0px 20px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        .link {
+            color: #6b6b6b00;
+            
         }
     }
 
@@ -49,4 +53,9 @@
     display: flex;
     justify-content: center;
     margin-top: auto;
+}
+
+h4{
+    color: #00000080;
+    font-weight: 400;
 }
