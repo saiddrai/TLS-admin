@@ -1,5 +1,6 @@
 import { useState } from "react"
-import NavbarCSS from "./Navbar.module.css"
+import NavbarCSS from "./Navbar.module.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
 
@@ -7,7 +8,7 @@ const Navbar = () => {
         <div className={NavbarCSS.navbar} >
             <button className={NavbarCSS.button}  > 
 
-            <img className={NavbarCSS.img} src="./logo.png" alt="logo"  />
+            <Link to={"/"}><img className={NavbarCSS.img} src="./logo.png" alt="logo"  /></Link>
             </button>
             <button className={NavbarCSS.button}  >
             <svg  className={NavbarCSS.img} width="30" height="33" viewBox="0 0 30 33" fill="none" xmlns="http://www.w3.org/2000/svg">

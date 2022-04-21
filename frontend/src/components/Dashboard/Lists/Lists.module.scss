@@ -1,8 +1,13 @@
 .lists{
     width: 95%;
     padding: 20px 10px;
+    height: 90%;
+    overflow: scroll;
+    overflow-x: hidden;
 }
+::-webkit-scrollbar-button {
 
+}
 .element{
     background-color: #EEEEEE;
     display: flex;
@@ -12,5 +17,18 @@
     justify-content: space-between;
     align-items: center;
     margin: 8px 0;
+    
+    
+.validate{
+    font-size: 0.9em;
+    background: linear-gradient(265.98deg, rgba(76, 157, 143, 0.67) 0%, rgba(104, 218, 180, 0.603) 106.29%);
+border-radius: 20px;
+border: none;
+outline: none;
+padding: 7px 15px;
+text-align: center;
+cursor: pointer;
+background-color: aqua;
 }
 
+}

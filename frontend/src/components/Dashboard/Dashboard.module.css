@@ -1,5 +1,4 @@
 .dashboard {
-  margin: 5vh 3vw;
   border-radius: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12,9 +11,9 @@
   -ms-flex-item-align: center;
       align-self: center;
   background-color: white;
-  padding: 3vh 4vw;
-  height: 50vh;
-  width: 70vw;
+  padding: 3vh 0vw;
+  height: 55vh;
+  width: 80vw;
 }
 
 .buttons {
