@@ -11,12 +11,14 @@ const Dashboard = (props) => {
     const setHome= () => {
         props.setHome(!props.home)
         }
-    let usage = "validate"
+    let usage = props.usage
 
 
     return ( 
         <div className={DashboardCSS.dashboard} >
             <div         >
+            {(usage ==="validate") && <h4> Account validation request #3</h4>}
+
                 {(usage ==="validate") ? <button className = {DashboardCSS.button}>All</button> : null}
                 <button className={DashboardCSS.button} >Patients</button>
                 <button className={DashboardCSS.button} >Doctors</button>
@@ -24,7 +26,7 @@ const Dashboard = (props) => {
             </div>
             { /* <Lists /> */ }
             {/* <AccValidation1 /> */}
-            <Lists notHome = {props.notHome} button = {usage} />
+            <Lists notHome = {props.notHome} button = {usage} setPages = {props.setPages} pages = {props.pages}/>
 
 
         </div>
